@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Konfigurasi js */
+.navbar.scrolled {
+    background-color: rgba(89, 52, 235, 1); /* Warna ungu saat di-scroll */
+    transition: background-color 1s ease;
+}
+
+.cv.scrolled {
+    border: 1px solid white;
+    transition: border 0.3s ease;
+}
+
+.navbar.scrolled1 {
+    background-color: rgba(89, 52, 235, 0); /* Warna ungu saat di-scroll */
+    transition: background-color .3s ease;
+}
+
+.cv.scrolled1 {
+    border: 1px solid rgba(255, 255, 255, 1);
+    transition: border 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* Progress bar style */
+.sec1 progress, .sec2 progress, .sec3 progress {
+    width: 100%;
+    appearance: none;
+    transition: width 1s ease-in-out; /* Smooth transition */
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e8e8e8;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(89, 52, 235);
+    border-radius: 10px;
+    animation: load 1s ease-in-out forwards;
+}
+
+/* Projects
+.projects .swiper {
+    width: 100%;
+}
+
+.projects .swiper-wrapper {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.projects .card {
+    width: 20em;
+    height: 400px;
+
+} */
