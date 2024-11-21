@@ -64,6 +64,13 @@ ul li a {
     text-decoration: none;
     color: aliceblue;
     font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+ul li a:hover {
+    background-color: rgb(89, 52, 235);
+    transition: background-color 0.5s ease-in-out;
 }
 
 .right .line {
@@ -126,14 +133,14 @@ ul li a {
     padding: 40vh 25vh;
 }
 
-.text button {
+.bg-trans .text a {
     padding: 15px 20px;
     border: none;
     border-radius: 20px;
     font-family: fredoka;
     font-size: 16px;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: white;
     background-color: rgb(89, 52, 235);
     margin-top: 2px;
 }
@@ -149,14 +156,20 @@ ul li a {
 
 .bg-hub1 {
     width: 100%;
-    height: 150px;
+    height: 250px;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .8), rgba(0, 0, 0, .7), rgba(0, 0, 0, .6), rgba(0, 0, 0, .5), rgba(0, 0, 0, .4), rgba(0, 0, 0, .3), rgba(0, 0, 0, .2), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0));
 }
 
 .bg-hub2 {
     width: 100%;
-    height: 200px;
-    background-image: linear-gradient(to bottom, rgba(89, 52, 235, 0), rgba(89, 52, 235, .2), rgba(89, 52, 235, .4), rgba(89, 52, 235, .6), rgba(89, 52, 235, .8), rgb(89, 52, 235));
+    height: 250px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .8), rgba(0, 0, 0, .7), rgba(0, 0, 0, .6), rgba(0, 0, 0, .5), rgba(0, 0, 0, .4), rgba(0, 0, 0, .3), rgba(0, 0, 0, .2), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0));
+}
+
+.bg-hub3 {
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .8), rgba(0, 0, 0, .7), rgba(0, 0, 0, .6), rgba(0, 0, 0, .5), rgba(0, 0, 0, .4), rgba(0, 0, 0, .3), rgba(0, 0, 0, .2), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0));
 }
 
 /* About Me */
@@ -236,36 +249,81 @@ ul li a {
 .sosmed .instagram,
 .sosmed .tiktok,
 .sosmed .line {
-    padding: 5px;
+    padding: 8px 10px;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.188);
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.sosmed .instagram:hover {
+    background-color: rgb(89, 52, 235);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.sosmed .tiktok:hover {
+    background-color: rgb(89, 52, 235);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.sosmed .line:hover {
+    background-color: rgb(89, 52, 235);
+    color: white;
+    transition: all 0.3s ease-in-out;
 }
 
 .sosmed .instagram i,
 .sosmed .tiktok i,
 .sosmed .line i {
     font-size: 30px;
-    border: 2px solid black;
-    padding: 15px;
-    border-radius: 60%;
 }
 
 /* Skills */
 
 .skills {
-    padding: 155px;
+    padding: 155px 155px 70px;
     width: 100%;
-    height: 750px;
+}
+
+.skills .content .desc-singkat {
+    display: flex;
+}
+
+.content .desc-singkat .text {
+    align-items: center;
+    margin: auto 20px;
+}
+
+.skills .content .desc-singkat img {
+    height: 400px;
+    max-width: 400px;
 }
 
 .skills .content h2.title {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     font-family: inter;
     color: rgb(89, 52, 235);
-    text-align: center;
-    margin-bottom: 25px;
 }
 
-.skills .content h3 {
+.skills .content .text h3.sub-title {
+    font-weight: 600;
+    font-family: inter;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skills .content .text h3 {
+    font-weight: 400;
+    font-family: inter;
+    font-size: 16px;
+    margin: auto;
+}
+
+.skills .content .skillss h3 {
     font-weight: 400;
     font-family: inter;
     text-align: center;
@@ -277,18 +335,17 @@ ul li a {
 }
 
 .skills .content .sec1,
-.skills .content .sec2,
-.skills .content .sec3  {
+.skills .content .sec2 {
     display: flex;
     width: 100%;
 }
 
-.content .sec1 .skill1, 
-.content .sec1 .skill2, 
+.content .sec1 .skill1,
+.content .sec1 .skill2,
 .content .sec2 .skill1,
 .content .sec2 .skill2,
-.content .sec3 .skill1,
-.content .sec3 .skill2   {
+.content .sec1 .skill3,
+.content .sec2 .skill3 {
     width: 50%;
     background-color: white;
     box-shadow: 0 0 8px rgb(147, 147, 147);
@@ -297,10 +354,11 @@ ul li a {
     margin-bottom: 20px;
 }
 
-.content .sec1 .skill1, 
+.content .sec1 .skill1,
 .content .sec2 .skill1,
-.content .sec3 .skill1 {
-    margin-right: 50px;
+.content .sec1 .skill2,
+.content .sec2 .skill2 {
+    margin-right: 20px;
 }
 
 .content .sec1 .skill1 i {
@@ -319,11 +377,11 @@ ul li a {
     color: #5c81b5;
 }
 
-.content .sec3 .skill1 i {
+.content .sec2 .skill3 i {
     color: #000000;
 }
 
-.content .sec3 .skill2 i {
+.content .sec2 .skill3 i {
     color: #eec703;
 }
 
@@ -336,33 +394,20 @@ ul li a {
 } */
 
 .sec1 .title,
-.sec2 .title,
-.sec3 .title {
+.sec2 .title {
     display: flex;
     margin-bottom: 10px;
 }
 
 .sec1 .title i,
-.sec2 .title i,
-.sec3 .title i {
+.sec2 .title i {
     margin-left: 5px;
     font-size: 20px;
 }
 
-/* ada di app.css */
-/* progress::-webkit-progress-bar {
-    background-color: #e8e8e8;
-    border-radius: 10px;
-}
-
-progress::-webkit-progress-value {
-    background-color: rgb(89, 52, 235);
-    border-radius: 10px;
-} */
-
 /* Projects */
 .projects {
-    background-color: rgb(89, 52, 235);
+    /* background-color: rgb(0, 0, 0); */
     padding: 155px;
 }
 
@@ -372,30 +417,165 @@ progress::-webkit-progress-value {
     text-align: center;
     font-family: inter;
     font-weight: 600;
-    color: white;
+    color: rgb(89, 52, 235);
 }
 
 /* carousel projects */
 .projects .carousel .carousel-inner {
     border-radius: 10px;
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.448);
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.342);
 }
 
 .projects .carousel .carousel-inner {
     background-color: black;
 }
 
-.projects .carousel .carousel-item img  {
-    /* left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 3rem 0; */
-    /* box-shadow: 0 0 10px rgb(255, 0, 0) inset; */
-    opacity: 0.8;
+.projects .project2 {
+    margin: 20px 0;
 }
 
-.projects .{
-    
+.projects .carousel-item h5 {
+    font-size: 18px;
+    font-family: inter;
+    margin-bottom: 8px;
 }
 
+.projects .carousel-item p {
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+}
 
+.projects .card-body h5 {
+    font-size: 18px;
+    font-family: inter;
+    color: rgb(89, 52, 235);
+}
+
+.projects .card-body p {
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+}
+
+/* Experiences */
+.experiences {
+    background-color: rgb(0, 0, 0);
+    padding: 155px 0;
+    height: 950px;
+}
+
+.experiences h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    font-family: inter;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.experiences .carousel-caption h5 {
+    font-size: 18px;
+    font-family: inter;
+    margin-bottom: 8px;
+}
+
+.experiences .carousel-caption p {
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+}
+
+/* Send Email */
+.send-email {
+    padding: 60px 80px;
+    display: flex;
+    width: 100%;
+}
+
+.send-email .email {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+.send-email .email form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.262);
+}
+
+.send-email .img {
+    width: 50%;
+    padding: 0 60px;
+}
+
+.send-email .img .desc {
+    display: flex;
+}
+
+.send-email .img .desc h3 {
+    font-family: inter;
+    font-weight: 400;
+}
+
+.img .desc .folme {
+    width: 40%;
+} 
+
+.desc .folme h3.title {
+    font-weight: 700;
+    color: rgb(89, 52, 235);
+}
+
+.img .desc .greeting {
+    width: 60%;
+    padding: 0 30px 0 0;
+} 
+
+.send-email .img .sosmed {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.send-email .email form {
+    font-family: inter;
+    font-weight: 500;
+}
+
+.send-email .email form .title {
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+    align-items: center;
+    width: 100%;
+}
+
+form .title {
+    padding: 0 260px;
+    margin-bottom: 10px;
+    color: rgb(89, 52, 235);
+}
+
+form .title i {
+    margin-right: 8px;
+}
+
+form label {
+    margin-bottom: 6px;
+}
+
+form input {
+    margin-bottom: 8px;
+}
+
+form textarea {
+    margin-bottom: 8px;
+}
+
+form button.btn {
+    background-color: rgb(89, 52, 235);
+    color: white;
+}

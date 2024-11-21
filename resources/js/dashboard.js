@@ -2,30 +2,30 @@
 window.addEventListener("scroll", function () {
     const navbar = document.querySelector(".navbar");
     const bgHub1 = document.querySelector(".bg-hub1");
-    const cv = document.querySelector(".cv");
-    const bgHub1Position = bgHub1.offsetTop;
-
-    if (window.scrollY > bgHub1Position) {
-        navbar.classList.add("scrolled"); // Menambahkan kelas 'scrolled' saat melewati bg-hub1
-        cv.classList.add("scrolled");
-    } else {
-        navbar.classList.remove("scrolled"); // Menghapus kelas 'scrolled' sebelum bg-hub1
-        cv.classList.remove("scrolled");
-    }
-});
-
-window.addEventListener("scroll", function () {
-    const navbar = document.querySelector(".navbar");
     const bgHub2 = document.querySelector(".bg-hub2");
+    const bgHub3 = document.querySelector(".bg-hub3");
     const cv = document.querySelector(".cv");
-    const bgHub2Position = bgHub2.offsetTop;
 
-    if (window.scrollY > bgHub2Position) {
-        navbar.classList.add("scrolled1"); // Menambahkan kelas 'scrolled' saat melewati bg-hub1
-        cv.classList.add("scrolled1");
+    const bgHub1Position = bgHub1.offsetTop;
+    const bgHub2Position = bgHub2.offsetTop;
+    const bgHub3Position = bgHub3.offsetTop;
+
+    if (window.scrollY >= bgHub3Position) {
+        navbar.classList.add("scrolled");
+        cv.classList.add("scrolled");
+        navbar.classList.remove("scrolled1");
+    } else if (window.scrollY >= bgHub2Position) {
+        navbar.classList.remove("scrolled");
+        cv.classList.remove("scrolled");
+        navbar.classList.add("scrolled1");
+    } else if (window.scrollY >= bgHub1Position) {
+        navbar.classList.add("scrolled");
+        cv.classList.add("scrolled");
+        navbar.classList.remove("scrolled1");
     } else {
-        navbar.classList.remove("scrolled1"); // Menghapus kelas 'scrolled' sebelum bg-hub1
-        cv.classList.remove("scrolled1");
+        navbar.classList.remove("scrolled");
+        cv.classList.remove("scrolled");
+        navbar.classList.remove("scrolled1");
     }
 });
 
