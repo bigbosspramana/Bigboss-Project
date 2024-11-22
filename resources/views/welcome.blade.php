@@ -32,9 +32,9 @@
         'resources/img/project4.png',
         'resources/img/smart-mirror.jpg',
         'resources/img/topup-shop.jpg',
-        'https://bigboss-project-k7f4aexx2-alvin-yuga-pramanas-projects.vercel.app/build/assets/app-BaVMVknW.css',
-        'https://bigboss-project-k7f4aexx2-alvin-yuga-pramanas-projects.vercel.app/build/assets/dashboard-DE21gFif.css',
-        'https://bigboss-project-k7f4aexx2-alvin-yuga-pramanas-projects.vercel.app/build/assets/reset-8_00JVMR.css',])
+        'resources/css/dashboard.css',
+        'resources/css/app.css',
+        'resources/css/reset.css',])
 </head>
 
 <body>
