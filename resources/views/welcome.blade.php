@@ -26,7 +26,10 @@
         'resources/img/project3.png',
         'resources/img/project4.png',
         'resources/img/smart-mirror.jpg',
-        'resources/img/topup-shop.jpg',])
+        'resources/img/topup-shop.jpg',
+        'resources/css/dashboard.css',
+        'resources/css/app.css',
+        'resources/css/reset.css',])
 </head>
 
 <body>
