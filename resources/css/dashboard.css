@@ -1,22 +1,22 @@
 /* Font Face */
 @font-face {
     font-family: 'roboto';
-    src: url('/fonts/Roboto-Black.ttf') format('truetype');
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'raleway';
-    src: url('/fonts/Raleway-Black.ttf') format('truetype');
+    src: url('../fonts/Raleway-Black.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('/fonts/Inter.ttf') format('truetype');
+    src: url('../fonts/Inter.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'fredoka';
-    src: url('/fonts/Fredoka.ttf') format('truetype');
+    src: url('../fonts/Fredoka.ttf') format('truetype');
 }
 
 html {
