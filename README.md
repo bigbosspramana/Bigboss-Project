@@ -1,68 +1,53 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
 # Bigboss-Project
+
+Bigboss-Project adalah website portfolio yang saya buat menggunakan **Laravel 11** sebagai framework utama. Website ini mencakup beberapa bagian penting, antara lain:
+- **About**
+- **Skills**
+- **Projects**
+- **Experience**
+- **Contact Me**
+
+Untuk membantu mempercantik tampilan, saya menggunakan **Bootstrap** sebagai framework CSS. Selain itu, saya juga menggunakan sedikit animasi dengan **JavaScript** untuk meningkatkan interaktivitas dan pengalaman pengguna.
+
+## Fitur Utama
+
+- **About**: Menampilkan informasi tentang diri saya.
+- **Skills**: Menampilkan keterampilan dan keahlian yang saya miliki.
+- **Projects**: Menampilkan proyek-proyek yang telah saya kerjakan beserta penjelasan singkat tentang masing-masing proyek.
+- **Experience**: Menampilkan pengalaman kerja dan proyek yang relevan.
+- **Contact Me**: Formulir yang memungkinkan pengunjung untuk mengirim pesan kepada saya melalui email.
+
+## Teknologi yang Digunakan
+
+Website ini dibangun menggunakan teknologi berikut:
+
+- **Laravel 11**: Sebagai framework PHP untuk mengelola backend dan logika aplikasi.
+- **Bootstrap**: Untuk membuat tampilan responsif dan antarmuka yang menarik.
+- **JavaScript**: Digunakan untuk menambahkan animasi dan interaksi dinamis pada halaman.
+- **SMTP (Gmail)**: Untuk mengirimkan email melalui formulir kontak. Saya menggunakan otentikasi username dan password untuk konfigurasi SMTP.
+
+## Hosting
+
+Saya berhasil melakukan **hosting** website portfolio saya di **Vercel**, sehingga website dapat diakses secara online melalui URL yang telah saya daftarkan. Anda dapat mengunjungi website saya di [URL Website](https://bigboss-project.vercel.app/).
+
+## Referensi
+
+Sebelum website saya dideploy di Vercel, formulir **Contact Me** berfungsi dengan baik dan dapat mengirimkan email ke akun **Gmail** saya. Namun, setelah proses deploy, saya mengalami sedikit masalah. Meskipun pengaturan menggunakan **SMTP Gmail** dengan autentikasi username dan password, saya tidak bisa lagi menerima email dari formulir tersebut setelah deployment.
+
+Berikut adalah bukti bahwa email dapat terkirim dengan baik sebelum deployment (screenshot akan dilampirkan di sini).
+
+### Hasil Send Email:
+![Email Screenshot](assets/hasil-email.png)
+
+### Tutorial yang Saya Ikuti
+Saya telah menonton tutorial di YouTube untuk membuat SMTP Gmail menggunakan controller, sudah berhasil di local, namun ketika dihosting di vercel jadinya **419 Page Expired**. Berikut adalah link ke tutorial yang saya tonton:
+- [Tutorial Membuat Pengiriman Email dengan SMTP Gmail - YouTube](https://youtu.be/GSIUAhmn9ks?si=JpKFsb14AXb5tAFI)
+
+### Pengaturan SMTP yang Digunakan:
+- **SMTP Host**: smtp.gmail.com
+- **SMTP Port**: 587
+- **SMTP Authentication**: Username dan password Gmail
+
+## Pertanyaan
+
+Apakah ada saran atau pendapat untuk mengatasi masalah ini? Mungkin ada pengaturan yang terlewat setelah deployment atau ada masalah lain terkait konfigurasi di Vercel? Saya akan sangat menghargai bantuan atau masukan dari komunitas untuk bisa menyelesaikan masalah ini.

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Konfigurasi js */
 .navbar{
     transition: background-color .5s ease-in-out;
