@@ -76,7 +76,7 @@
         <div class="content">
             <div class="desc-singkat">
                 <div class="img">
-                    <img src="{{ Vite::asset('resources/img/img1.png') }}" alt="">
+                    <img src="{{ Vite::asset('/resources/img/img1.png') }}" alt="">
                 </div>
                 <div class="text">
                     <h2 class="title">Skills</h2>
