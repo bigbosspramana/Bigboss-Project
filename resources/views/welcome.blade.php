@@ -8,10 +8,10 @@
     <title>Alvin Yuga Pramana Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/build/assets/dashboard-CoFMQZXi.css" type="text/css">
+    <link rel="stylesheet" href="/build/assets/dashboard-DE21gFif.css" type="text/css">
     <link rel="stylesheet" href="/build/assets/app-BaVMVknW.css" type="text/css">
     <link rel="stylesheet" href="/build/assets/reset-8_00JVMR.css" type="text/css">
-    <link rel="stylesheet" href="/build/assets/app-Ca-_sS95.css" type="text/css">
+    <link rel="stylesheet" href="/build/assets/app-DMRfjk3F" type="text/css">
 
     <!-- Styles / Scripts -->
     @vite([
@@ -318,7 +318,7 @@
                 </div>
             </div>
             @endif
-            <form class="row" action="{{ route('contact.send') }}" method="POST">
+            <form class="row" action="https://bigboss-project.vercel.app/contact" method="POST">
                 @csrf
                 <div class="title">
                     <i class="fa-solid fa-square-envelope"></i>
@@ -359,7 +359,7 @@
         </div>
     </div>
 
-    <script src="/build/assets/app-81VVgXSm.js"></script>
+    <script src="/build/assets/app-DygxLsCf.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
