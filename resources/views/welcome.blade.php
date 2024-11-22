@@ -9,7 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 
     <!-- Styles / Scripts -->
-    @vite(['resources/js/app.js'])
+    @vite(['resources/js/app.js', 'resources/img/img1.png'])
 </head>
 
 <body>
@@ -76,7 +76,7 @@
         <div class="content">
             <div class="desc-singkat">
                 <div class="img">
-                    <img src="{{ Vite::asset('/resources/img/img1.png') }}" alt="">
+                    <img src="{{ Vite::asset('resources/img/img1.png') }}" alt="">
                 </div>
                 <div class="text">
                     <h2 class="title">Skills</h2>
