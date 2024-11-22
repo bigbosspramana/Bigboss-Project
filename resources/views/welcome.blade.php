@@ -77,7 +77,7 @@
             </div>
             <div class="text1">
                 <h3>About Me</h3>
-                <h2>Who Am I</h2>
+                <h2>Who I Really Am</h2>
                 <p>Hello, I'm Alvin Yuga Pramana! I enjoy playing games and love helping others with web and mobile app development projects. I have a strong interest and curiosity in game development, especially in creating engaging and innovative interactive experiences. Outside of my projects, I often spend time playing badminton or games with my friends. Let's connect and talk about the latest technologies, innovations in app development, and how we can create new ideas in the digital world.</p>
                 <div class="sosmed">
                     <div class="instagram">
