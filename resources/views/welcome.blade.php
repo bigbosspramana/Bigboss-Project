@@ -15,26 +15,28 @@
 
     <!-- Styles / Scripts -->
     @vite([
-        'resources/js/app.js', 
-        'resources/img/img1.png', 
-        'resources/img/img-self2.jpg',
-        'resources/img/img-self1.jpg',
-        'resources/img/aset1.png',
-        'resources/img/aset2.png',
-        'resources/img/calends.jpg',
-        'resources/img/devforge.jpg',
-        'resources/img/gdsc.jpg',
-        'resources/img/lk21.jpg',
-        'resources/img/oweek.jpg',
-        'resources/img/project1.png',
-        'resources/img/project2.png',
-        'resources/img/project3.png',
-        'resources/img/project4.png',
-        'resources/img/smart-mirror.jpg',
-        'resources/img/topup-shop.jpg',
-        'resources/css/dashboard.css',
-        'resources/css/app.css',
-        'resources/css/reset.css',])
+    'https://bigboss-project.vercel.app/resources/js/app.js',
+    'https://bigboss-project.vercel.app/resources/img/img1.png',
+    'https://bigboss-project.vercel.app/resources/img/img-self2.jpg',
+    'https://bigboss-project.vercel.app/resources/img/img-self1.jpg',
+    'https://bigboss-project.vercel.app/resources/img/aset1.png',
+    'https://bigboss-project.vercel.app/resources/img/aset2.png',
+    'https://bigboss-project.vercel.app/resources/img/calends.jpg',
+    'https://bigboss-project.vercel.app/resources/img/devforge.jpg',
+    'https://bigboss-project.vercel.app/resources/img/gdsc.jpg',
+    'https://bigboss-project.vercel.app/resources/img/lk21.jpg',
+    'https://bigboss-project.vercel.app/resources/img/oweek.jpg',
+    'https://bigboss-project.vercel.app/resources/img/project1.png',
+    'https://bigboss-project.vercel.app/resources/img/project2.png',
+    'https://bigboss-project.vercel.app/resources/img/project3.png',
+    'https://bigboss-project.vercel.app/resources/img/project4.png',
+    'https://bigboss-project.vercel.app/resources/img/smart-mirror.jpg',
+    'https://bigboss-project.vercel.app/resources/img/topup-shop.jpg',
+    'https://bigboss-project.vercel.app/resources/css/dashboard.css',
+    'https://bigboss-project.vercel.app/resources/css/app.css',
+    'https://bigboss-project.vercel.app/resources/css/reset.css',
+])
+
 </head>
 
 <body>
