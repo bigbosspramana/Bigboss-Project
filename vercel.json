@@ -10,6 +10,10 @@
             "dest": "/public/assets/$1"
         },
         {
+            "src": "/build/assets/(.*)",
+            "dest": "/public/build/assets/$1"
+        },
+        {
             "src": "/Controllers/(.*)",
             "dest": "/app/Http/Controllers/$1"
         },
