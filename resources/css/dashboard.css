@@ -56,7 +56,7 @@ body .navbar .right {
 
 .right ul li {
     font-family: fredoka;
-    padding: 16px 0;
+    padding: 18px 0;
     margin: 0 10px;
 }
 
@@ -81,7 +81,7 @@ ul li a:hover {
 }
 
 .navbar .right .cv {
-    padding: 16px 10px;
+    padding: 18px 10px;
     display: flex;
     border-radius: 50px;
     background-color: rgb(89, 52, 235);
@@ -116,7 +116,8 @@ ul li a:hover {
     font-family: inter;
     font-size: 50px;
     font-weight: 250;
-    line-height: 60px;
+    line-height: 50px;
+    margin-bottom: 20px;
 }
 
 .container1 .bg-trans {
@@ -135,13 +136,14 @@ ul li a:hover {
 .bg-trans .text a {
     padding: 15px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 16px;
     font-family: fredoka;
     font-size: 16px;
     font-weight: 500;
     color: white;
     background-color: rgb(89, 52, 235);
     margin-top: 2px;
+    text-decoration: none;
 }
 
 .container1 img {
@@ -183,6 +185,7 @@ ul li a:hover {
     font-size: 24px;
     font-weight: 600;
     font-family: inter;
+    margin-bottom: 3px;
 }
 
 .about .text1 h3 {
@@ -326,6 +329,7 @@ ul li a:hover {
     font-weight: 400;
     font-family: inter;
     text-align: center;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
@@ -517,6 +521,8 @@ ul li a:hover {
 .send-email .img .desc h3 {
     font-family: inter;
     font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
 }
 
 .img .desc .folme {
