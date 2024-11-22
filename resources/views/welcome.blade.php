@@ -203,7 +203,7 @@
         <div class="row row-cols-1 row-cols-md-2 g-4 project2">
             <div class="col">
                 <div class="card">
-                    <img src="{{ Vite::asset('resources/img/calends.jpg') }}" class="card-img-top" alt="..." width="200px" height="200px">
+                    <img src="{{ Vite::asset('resources/img/calends.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Callends</h5>
                         <p class="card-text">This is a prototype of an app created in Figma, aimed at helping people who struggle with managing their finances, daily activities, and goals.</p>
