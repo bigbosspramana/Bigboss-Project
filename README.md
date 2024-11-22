@@ -37,7 +37,7 @@ Sebelum website saya dideploy di Vercel, formulir **Contact Me** berfungsi denga
 Berikut adalah bukti bahwa email dapat terkirim dengan baik sebelum deployment (screenshot akan dilampirkan di sini).
 
 ### Hasil Send Email:
-![Email Screenshot](assets/hasil-email.png)
+![Email Screenshot](public/assets/hasil-email.png)
 
 ### Tutorial yang Saya Ikuti
 Saya telah menonton tutorial di YouTube untuk membuat SMTP Gmail menggunakan controller, sudah berhasil di local, namun ketika dihosting di vercel jadinya **419 Page Expired**. Berikut adalah link ke tutorial yang saya tonton:
