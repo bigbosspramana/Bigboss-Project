@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/build/assets/dashboard-DE21gFif.css" type="text/css">
     <link rel="stylesheet" href="/build/assets/app-BaVMVknW.css" type="text/css">
     <link rel="stylesheet" href="/build/assets/reset-8_00JVMR.css" type="text/css">
-    <link rel="stylesheet" href="/build/assets/app-DMRfjk3F" type="text/css">
+    <link rel="stylesheet" href="/build/assets/app-DMRfjk3F.css" type="text/css">
 
     <!-- Styles / Scripts -->
     @vite([
