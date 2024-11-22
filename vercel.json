@@ -14,6 +14,10 @@
             "dest": "/public/build/assets/$1"
         },
         {
+            "src": "/img/(.*)",
+            "dest": "/resources/img/$1"
+        },
+        {
             "src": "/Controllers/(.*)",
             "dest": "/app/Http/Controllers/$1"
         },
