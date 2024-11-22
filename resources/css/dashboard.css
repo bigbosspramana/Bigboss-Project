@@ -25,7 +25,7 @@ html {
 
 /* Navbar */
 
-.navbar {
+body .navbar {
     width: 100%;
     background-color: rgba(89, 52, 235, 0);
     display: flex;
@@ -34,7 +34,7 @@ html {
     z-index: 999;
 }
 
-.navbar h1 {
+body .navbar h1 {
     position: relative;
     font-size: 22px;
     font-family: raleway;
@@ -43,18 +43,18 @@ html {
     margin: auto;
 }
 
-.navbar .right {
+body .navbar .right {
     display: flex;
     position: relative;
     top: 0;
     left: 0;
 }
 
-ul {
+.navbar .right ul {
     display: flex;
 }
 
-ul li {
+.right ul li {
     font-family: fredoka;
     padding: 16px 0;
     margin: 0 10px;
@@ -73,22 +73,21 @@ ul li a:hover {
     transition: background-color 0.5s ease-in-out;
 }
 
-.right .line {
+.navbar .right .line {
     width: 1px;
     height: 40px;
     margin: 9px 30px;
     background-color: white;
 }
 
-.right .cv {
+.navbar .right .cv {
     padding: 16px 10px;
     display: flex;
     border-radius: 50px;
-    /* border: 1px solid white; */
     background-color: rgb(89, 52, 235);
 }
 
-.right .cv i {
+.navbar .right .cv i {
     color: rgb(255, 255, 255);
     font-size: 18px;
     margin-right: 5px;
