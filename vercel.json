@@ -14,7 +14,7 @@
             "dest": "/public/build/assets/$1"
         },
         {
-            "src": "/img/(.*)",
+            "src": "/resources/img/(.*)",
             "dest": "/resources/img/$1"
         },
         {
