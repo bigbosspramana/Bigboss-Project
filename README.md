@@ -30,7 +30,7 @@ Website ini dibangun menggunakan teknologi berikut:
 
 Saya berhasil melakukan **hosting** website portfolio saya di **Vercel**, sehingga website dapat diakses secara online melalui URL yang telah saya daftarkan. Anda dapat mengunjungi website saya di [URL Website](https://bigboss-project.vercel.app/).
 
-## Referensi
+## Refleksi
 
 Sebelum website saya dideploy di Vercel, formulir **Contact Me** berfungsi dengan baik dan dapat mengirimkan email ke akun **Gmail** saya. Namun, setelah proses deploy, saya mengalami sedikit masalah. Meskipun pengaturan menggunakan **SMTP Gmail** dengan autentikasi username dan password, saya tidak bisa lagi menerima email dari formulir tersebut setelah deployment.
 
